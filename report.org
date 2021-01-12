@@ -99,7 +99,7 @@ The OVM implements full account abstraction. End user accounts are
 represented by a smart contract wallet (=OVM_ProxyEOA=), which sits
 at the same address in the OVM as the users account does in L1.
 
-This contracts implements a user upgradable =delegatecall= based proxy that
+This contract implements a user upgradable =delegatecall= based proxy that
 forwards all calls (except for =upgrade(address)= and =getImplementation()=) to the
 address stored at a hardcoded =IMPLEMENTATION_KEY=.
 
