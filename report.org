@@ -1,4 +1,5 @@
-#+TITLE: Optimism OVM Audit Report
+#+TITLE: Optimism Audit Report:
+#+SUBTITLE: ECDSA Wallet
 #+DATE: 12.01.2021
 #+AUTHOR: dapp.org
 #+EMAIL: fv@dapp.org.uk
@@ -19,7 +20,8 @@
 #+BEGIN_SRC emacs-lisp :exports none :results none
   (setq org-html-preamble-format
 	'(("en"
-	   "<h1 class=\"title\">%t</h1>
+	   "<h1 class=\"title\">%t</h1>	
+  	  <h1 class=\"subtitle\">%s</h1>
 	    <p class=\"subtitle\"><i>%a</i></p>
 	    <p class=\"subtitle\">%e</p>
 	    <p class=\"subtitle\">%d </p><br></br>")))

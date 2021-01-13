@@ -7,6 +7,7 @@
 (setq org-html-preamble-format
       '(("en"
 	 "<h1 class=\"title\">%t</h1>
+	  <h1 class=\"subtitle\">%s</h1>
 	  <p class=\"subtitle\"><i>%a</i></p>
 	  <p class=\"subtitle\">%e</p>
 	  <p class=\"subtitle\">last updated: %d </p><br></br>")))
